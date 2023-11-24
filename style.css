@@ -1,0 +1,25 @@
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.thumbnail img {
+  width: 120px;
+  height: 80px;
+  margin: 5px;
+  border: 2px solid #ddd;
+}
+.thumbnail img:hover {
+  transition: 0.3s;
+  border: 2px solid #888;
+  cursor: pointer;
+}
+.perview img {
+  width: 500px;
+  height: 300px;
+  border: 2px solid #fff;
+  display: block;
+  margin: 20px auto;
+}
